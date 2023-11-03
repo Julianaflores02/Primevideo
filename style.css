@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: black;
+  height: 127px;
+  width: 1350px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+img {
+  width: 1350px;
+  height: 350px;
+}
+
+nav {
+  margin-top: 40px;
+  word-spacing: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+
+section {
+  font-size: 15px;
+}
+
+div {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin: 20px;
+  /* border: solid 1px red; */
+}
+
+.seta1 {
+  width: 80px;
+  height: 90px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+
+.seta2 {
+  width: 80px;
+  height: 90px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+}
+
+.seta1:hover {
+  transition: 400ms linear;
+  transform: scale(1.2);
+}
+
+.seta2:hover {
+  transition: 400ms linear;
+  transform: scale(1.2);
+}
+
+.filmes {
+  height: 250px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+}
+
+.filmes:hover {
+  background-color: blue;
+  border: none;
+  border-radius: 30px;
+}
+
+footer {
+  width: 1350px;
+  height: 130px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: "Actor", sans-serif;
+}
+
+.site {
+  width: 32px;
+  height: 32px;
+  border-radius: 60px;
+  margin-top: 20px;
+}
+
+p {
+  padding-top: 20px;
+}
